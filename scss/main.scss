@@ -1,0 +1,105 @@
+/*Write all your custom code here only.
+Be careful and please write extends, includes and rules with variables on top.
+Media-queries should be on bottom of the rules, even if it contains variables.
+Children should be placed after media queries.
+Example:
+.style {
+    color: #FFF;
+}
+.your-class {
+    @extend .style;                                 <- extend
+    @include: prefix (transform: rotate($deg))      <- include
+    width: $width-value;                            <- variable
+    font-size: $base-size;                          <- variable
+    height: 30px;                                   <- constant
+    position: absolute;                             <- constant
+    &:hover {                                       <- pseudoclass
+        color: #333;
+    }
+    @media (min-width: 768px) {                     <- media query
+        width: 100%;
+    }
+    a {                                             <- child
+        text-decoration: none;
+    }
+}
+It helps other developers to recognize this part of code easier
+and more efficiently.
+If you need to use your css-rules in module pages only (e.g., GROUPS), then
+create [name-of-module].scss (in this cause, groups.scss) and write your
+code there. This file can be named how you want (e.g., join.scss).
+Ask back-end developer how to include it in the project, DON'T use <head> tag
+for this.*/
+
+
+
+@import "partials/variables.scss";
+@import "partials/mixins.scss";
+@import "partials/extended.scss";
+@import "partials/base.scss";
+@import "partials/js.scss";
+
+.effect {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+    
+    .caption {
+   position: absolute;
+   top: -100%; 
+   left: 0px; 
+   background: $main-color;
+   width: 100%;
+   height: 100%;
+   color: #fff;
+   -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+   -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+   -ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+   -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+   transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+}
+        
+    &:hover .caption{
+          top: 0px;
+    }
+}
+
+.effect {
+    
+    img { 
+  width: 100%;
+  height: 100%;
+    }
+    
+    .caption {
+        h4 {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  margin-top: 20px;
+            }
+        p{
+  margin: 15px 0px;
+  text-align: center;
+  font-style: italic;
+  padding: 0px 10px;
+        }
+        a {
+            .btn {
+                  width: 120px;
+                  text-align: center;
+                  display: block;
+                  background: #68432d;
+                  color: #fff;
+                  padding: 10px 0px;
+                  border-radius: 5px;
+                  margin: 0px auto 0px auto;
+            }
+        }
+}
+    
+}
