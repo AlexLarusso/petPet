@@ -31,8 +31,6 @@ code there. This file can be named how you want (e.g., join.scss).
 Ask back-end developer how to include it in the project, DON'T use <head> tag
 for this.*/
 
-
-
 @import "partials/variables.scss";
 @import "partials/mixins.scss";
 @import "partials/extended.scss";
@@ -43,5 +41,4 @@ for this.*/
 #page {
     display: flex;
     justify-content: center;
-    width : 500px;
 }
