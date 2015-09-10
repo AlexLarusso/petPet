@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html data-ng-app="petPet">
+<html data-ng-app="petPet" ng-controller="appCtrl as app">
     <head>
-        <title>Title</title>
+        <title>{{app.appName}} - the best shop in the WEB</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/main.css">
 
     </head>
-    <body ng-controller="appCtrl as app">
-    <h1>Hello {{app.appName}}</h1>
-        <script src="libs/angular/angular.min.js"></script>
-        <script src="componenets/app/app.module.js"></script>
-        <script src="componenets/app/appController.js"></script>
+    <body >
+    <div id="page">
+
+        <h1>Hello {{app.appName}}</h1>
+
+
+
+    </div>
+        <script src="assets/libs/angular/angular.min.js"></script>
+        <script src="app/app.module.js"></script>
+        <script src="app/app.constants.js"></script>
+        <script src="app/app.controller.js"></script>
     </body>
 </html>

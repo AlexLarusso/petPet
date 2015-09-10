@@ -38,3 +38,9 @@ for this.*/
 @import "partials/extended.scss";
 @import "partials/base.scss";
 @import "partials/js.scss";
+
+
+#page {
+    display: flex;
+    justify-content: center;
+}
