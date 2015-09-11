@@ -97,5 +97,105 @@
 	"sex": "men",
 	"category": "shorts",
 	"imgUrl": ["shorts/id_10_t.jpg", "shorts/id_10_s.jpg", "shorts/id_10_p.jpg" ]
+},
+{
+	"id": 11,
+	"name": "Jacquard dress",
+	"price": "1399,00",
+	"color": "black",
+	"discount": 0,
+	"sex": "women",
+	"category": "dress",
+	"imgUrl": "dress/id_11.jpg"
+},
+{
+	"id": 12,
+	"name": "Dress long velvet",
+	"price": "2599,00",
+	"color": "black",
+	"discount": 0,
+	"sex": "women",
+	"category": "dress",
+	"imgUrl": "dress/id_12.jpg"
+},
+{
+	"id": 13,
+	"name": "Leather Ankle",
+	"price": "1599,00",
+	"color": "black",
+	"discount": 0,
+	"sex": "women",
+	"category": "shoes",
+	"imgUrl": "shoes/id_13.jpg"
+},
+{
+	"id": 14,
+	"name": "Skirt Gode",
+	"price": "899,00",
+	"color": ["seashell", "gray", "black"],
+	"discount": 0,
+	"sex": "women",
+	"category": "skirts",
+	"imgUrl": "skirts/id_14.jpg"
+},
+{
+	"id": 15,
+	"name": "Leather mini skirt",
+	"price": "1399,00",
+	"color": "",
+	"discount": 0,
+	"sex": "women",
+	"category": "skirts",
+	"imgUrl": "skirts/id_15.jpg"
+},
+{
+	"id": 16,
+	"name": "Top with fringe",
+	"price": "999,00",
+	"color": "seashell",
+	"discount": 0,
+	"sex": "women",
+	"category": "blousesAndShirts",
+	"imgUrl": "blousesAndShirts/id_16.jpg"
+},
+{
+	"id": 17,
+	"name": "Basic shirt",
+	"price": "699,00",
+	"color": ["skyblue","white", "pink"],
+	"discount": 0,
+	"sex": "women",
+	"category": "blousesAndShirts",
+	"imgUrl": ["blousesAndShirts/id_17_s.jpg", "blousesAndShirts/id_17_w.jpg", "blousesAndShirts/id_17_p.jpg"]
+},
+{
+	"id": 18,
+	"name": "Assimetric T-Shirt",
+	"price": "699,00",
+	"color": ["palevioletred ","darkgray"],
+	"discount": 0,
+	"sex": "women",
+	"category": "tShirts",
+	"imgUrl": ["tShirts/id_18_p.jpg", "tShirts/id_18_d.jpg"]
+},
+{
+	"id": 19,
+	"name": "Top without sleeves",
+	"price": "349,00",
+	"color": ["crimson","seashell", "black"],
+	"discount": 0,
+	"sex": "women",
+	"category": "tShirts",
+	"imgUrl": ["tShirts/id_19_c.jpg", "tShirts/id_19_s.jpg", "tShirts/id_19_b.jpg"]
+},
+{
+	"id": 20,
+	"name": "Top with drapery",
+	"price": "799,00",
+	"color": "black",
+	"discount": 0,
+	"sex": "women",
+	"category": "tShirts",
+	"imgUrl": "tShirts/id_20.jpg"
 }
 ]
