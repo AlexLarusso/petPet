@@ -1,0 +1,101 @@
+[{
+	"id": 1,
+	"name": "Bomber jacket-long",
+	"price": "1999,00",
+	"color": ["black","khaki"],
+	"discount": 0,
+	"sex": "men",
+	"category": "coat",
+	"imgUrl": ["coats/id_1_b.jpg", "coats/id_2_h.jpg"]
+},
+{
+	"id": 2,
+	"name": "Coat with asymmetrical bottom",
+	"price": "3499,00",
+	"color": "black",
+	"discount": 0,
+	"sex": "men",
+	"category": "coat",
+	"imgUrl": "coats/id_2.jpg"
+},
+{
+	"id": 3,
+	"name": "Dark-blue coat",
+	"price": "2599,00",
+	"color": "darkblue",
+	"discount": 0,
+	"sex": "men",
+	"category": "coat",
+	"imgUrl": "coats/id_3.jpg"
+},
+{
+	"id": 4,
+	"name": "Boots made of soft leather",
+	"price": "2399,00",
+	"color": "black",
+	"discount": 0,
+	"sex": "men",
+	"category": "shoes",
+	"imgUrl": "shoes/id_4.jpg"
+},
+{
+	"id": 5,
+	"name": "Moccasin with the effect of aged skin",
+	"price": "1199,00",
+	"color": "black",
+	"discount": 0,
+	"sex": "men",
+	"category": "shoes",
+	"imgUrl": "shoes/id_5.jpg"
+},
+{
+	"id": 6,
+	"name": "Superslim T-Shirt",
+	"price": "499,00",
+	"color": ["black", "white"],
+	"discount": 0,
+	"sex": "men",
+	"category": "tShirts",
+	"imgUrl": ["tShirts/id_6_b.jpg", "tShirts/id_6_w.jpg"]
+},
+{
+	"id": 7,
+	"name": "Top with 3/4 sleeves",
+	"price": "599,00",
+	"color": ["black", "white"],
+	"discount": 0,
+	"sex": "men",
+	"category": "tShirts",
+	"imgUrl": ["tShirts/id_7_b.jpg", "tShirts/id_7_w.jpg"]
+},
+{
+	"id": 8,
+	"name": "Just hat",
+	"price": "699,00",
+	"color": ["black", "sienna", "grey"],
+	"discount": 0,
+	"sex": "men",
+	"category": "accessories",
+	"imgUrl": ["accessories/id_8_b.jpg", "accessories/id_8_s.jpg", "accessories/id_8_g.jpg"]
+},
+{
+	"id": 9,
+	"name": "Gop cap",
+	"price": "449,00",
+	"color": "cornflowerblue ",
+	"discount": 0,
+	"sex": "men",
+	"category": "accessories",
+	"imgUrl": "accessories/id_9.jpg"
+},
+{
+	"id": 10,
+	"name": "Shorts with belt",
+	"price": "899,00",
+	"color": ["tomato","skyblue", "pink"],
+	"discount": 0,
+	"sex": "men",
+	"category": "shorts",
+	"imgUrl": ["shorts/id_10_t.jpg", "shorts/id_10_s.jpg", "shorts/id_10_p.jpg" ]
+}
+]
