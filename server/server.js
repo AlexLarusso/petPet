@@ -37,7 +37,7 @@ app.get('/', routes.index);
 app.get('/login', routes.login);
 app.get('/account/login', routes.login);
 app.post('/login', routes.loginProcess);
-app.get('/chat', routes.chat);
+app.get('/backet', routes.backet);
 app.get('/error', function(req, res, next){
 next(new Error('A contrived error'));
 });
