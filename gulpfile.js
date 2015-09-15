@@ -5,8 +5,7 @@ var gulp = require("gulp"),//http://gulpjs.com/
 	minifycss = require('gulp-minify-css'),//https://www.npmjs.org/package/gulp-minify-css
 	rename = require('gulp-rename'),//https://www.npmjs.org/package/gulp-rename
 	log = util.log,
-	sassFiles = 'assets/scss/*.scss'
-	;
+	sassFiles = 'assets/scss/*.scss';
 
 	gulp.task("sass", function(){ 
 	log("Generate CSS files " + (new Date()).toString());
